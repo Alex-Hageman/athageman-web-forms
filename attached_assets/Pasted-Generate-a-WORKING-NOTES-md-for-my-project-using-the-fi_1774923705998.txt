@@ -1,0 +1,66 @@
+Generate a WORKING_NOTES.md for my project using the files in this project.
+This is an internal document for the developer and AI assistants — not public-facing.
+Use actual project details. Output Markdown only — no preamble or explanation.
+Put this WORKING_NOTES.md file in the root of the project directory.  Sections (in order):
+
+1. TITLE AND HEADER NOTICE
+   - Title: "Working Notes — [Project Name]"
+   - Blockquote: internal document, not public, update at end of every session
+
+2. HOW TO USE THIS FILE (FOR AI ASSISTANTS)
+   Numbered instructions telling any AI to: read this entire file first; read
+   README.md for public context; not change folder structure or conventions
+   without discussion; follow all conventions exactly; not suggest anything
+   listed in "What Was Tried and Rejected"; ask before making large structural
+   changes; refactor conservatively if the project was vibe coded or AI-assisted.
+
+3. CURRENT STATE
+   - Last Updated: today's date
+   - Brief honest description of current project state
+   - Three checklists: What Is Working / What Is Partially Built / What Is Not Started
+
+4. CURRENT TASK
+   - What I was working on when I last stopped (2–3 sentences)
+   - The single next step needed
+
+5. ARCHITECTURE AND TECH STACK
+   Table: Technology | Version | Why It Was Chosen
+
+6. PROJECT STRUCTURE NOTES
+   - Fenced file tree
+   - Notes on non-obvious decisions
+   - Files/folders that must not be changed without discussion
+
+7. DATA / DATABASE
+   If database: table with Field | Type | Required | Notes per table.
+   If flat files: document each file's schema.
+   If no persistent data: state that explicitly.
+
+8. CONVENTIONS
+   Subsections for: naming conventions, code style, framework patterns, git commit style.
+
+9. DECISIONS AND TRADEOFFS
+   Bullet per decision: **Decision made:** reason. Do not suggest reversing this.
+
+10. WHAT WAS TRIED AND REJECTED
+    Bullet per abandoned approach with reason. AI must not suggest these again.
+
+11. KNOWN ISSUES AND WORKAROUNDS
+    Per issue: what the problem is, whether a workaround exists, what it does,
+    and that it must not be removed.
+
+12. BROWSER / ENVIRONMENT COMPATIBILITY
+    Front-end: browsers tested, expected support, known incompatibilities.
+    Back-end: OS, language version, environment dependencies.
+
+13. OPEN QUESTIONS
+    Unresolved decisions to revisit before building affected features.
+
+14. SESSION LOG
+    One entry for today: ### YYYY-MM-DD / accomplished / left incomplete /
+    decisions made / next step.
+
+15. USEFUL REFERENCES
+    Links to docs, tutorials, resources. Note any AI tools used and how.
+
+Format: ATX headings, fenced code blocks, no placeholder text.
